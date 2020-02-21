@@ -114,7 +114,7 @@ img{
     width: 25%;
     transition: 0.5s;
     border-radius: 10px;
-    display: block;
+    
 }
 .portfolio:hover{
     transform: scale(1.5);
@@ -129,7 +129,7 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 5% 0%;
+    
 }
 .forth_banner h2 {
     text-transform: uppercase;
@@ -137,8 +137,7 @@ img{
     font-family: Squada One;
     font-size: 50px;
     text-align: center;
-    margin: 6% 8% 0% 10%;
-    padding-bottom: 5%;
+    margin: 1% 8% 0% 10%;
 }
 .comments{
     margin: 2% 10% 2% 10%;
@@ -182,8 +181,12 @@ img{
 .social_icons h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    padding-bottom: 28px;
 
 }
 .social_icons a i:hover{
     transform: rotate(360deg);
+}
+.social_icons {
+    padding-bottom: 69px;
 }
