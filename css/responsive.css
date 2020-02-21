@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px){
+    .half_width h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: Squada One;
+        font-size: 30px;
+    }
+    .pink_text {
+        font-family: Squada One;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: hotpink;
+        font-size: 30px;
+    }
+    .description {
+        margin-top: 10%;
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 10%;
+    }
+    img {
+        width: 106%;
+        margin: 29px 0px 20px 0px;
+    }
+    .btn {
+        margin-top: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: hotpink;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: normal;
+        font-family: Squada One;
+        font-size: 20px;
+        transition: 0.1s;
+    }
+    .second_text_box p {
+        margin: 10% 0%;
+        font-size: 14px;
+    }
+    .third_banner h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: Squada One;
+        font-size: 27px;
+        text-align: center;
+        margin: 6% 8% 0% 10%;
+    }
+    .portfolio {
+        float: left;
+        width: 26%;
+        transition: 0.5s;
+        border-radius: 10px;
+        display: block;
+    }
+    .portfolio img {
+        width: 90%;
+    }
+    .forth_banner h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: Squada One;
+        font-size: 28px;
+        text-align: center;
+        margin: 0% 8% 0% 10%;
+        padding-bottom: 6%;
+    }
+    .comments h4 {
+        font-family: arial;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .comments h5 {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: gray;
+        padding-bottom: 2%;
+        font-size: 11px;
+    }
+    .comments p {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .contact_from h5 {
+        font-size: 13px;
+    }
+    .contact_from h3 {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+    
+    .half_width h2 {
+        font-size: 20px;
+    }
+    .pink_text {
+        font-size: 25px;
+    }
+    .description {
+        font-size: 11px;
+    }
+    .btn {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+    .second_text_box p {
+        font-size: 10px;
+    }
+    .third_banner h2 {
+        font-size: 17px;
+    }
+    .forth_banner h2 {
+        font-size: 20px;
+        margin: 0% 8% 0% 10%;
+    }
+    .comments h4 {
+       font-size: 20px;
+    }
+    .comments h5 {font-size: 12px;
+    }
+    .comments p {
+        font-size: 12px;
+    }
+    .contact_from h5 {
+        font-size: 14px;
+    }
+    .contact_from h3 {
+        font-size: 17px;
+    }
+    .social_icons a i {
+        font-size: 29px;
+        padding: 0% 2%;
+    }
+}
